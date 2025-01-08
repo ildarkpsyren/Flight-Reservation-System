@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="firstNameLineEdit">
+      <property name="placeholderText">
+       <string>First Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lastNameLineEdit">
+      <property name="placeholderText">
+       <string>Last Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="idLineEdit">
+      <property name="placeholderText">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="phoneLineEdit">
+      <property name="placeholderText">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="foodComboBox">
+      <item>
+       <property name="text">
+        <string>Veg</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Non-Veg</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>No Food</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="seatSpinBox">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bookButton">
+      <property name="text">
+       <string>Book Ticket</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
